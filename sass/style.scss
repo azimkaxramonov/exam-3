@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.macbook {
+    width: 276px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 39px;
+    column-gap: 39px;
+
+    .mac_name {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .price {
+        margin-top: 10px;
+    }
+
+    .first_box {
+        text-align: center;
+.img_mac{
+    width: 276px;
+}
+        .color_change {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+
+            .color {
+                width: 15px;
+                height: 15px;
+                border: solid 0px;
+                border-radius: 50%;
+                background-color: #CACACA;
+
+            }
+
+            .color:nth-child(2) {
+                background-color: #B1B0B6;
+            }
+
+            .color:nth-child(3) {
+                background-color: #E5CCAF;
+            }
+        }
+
+    }
+
+  
+
+            .buy_button {
+                border: solid 0px;
+                border-radius: 10px;
+                color: white;
+                background-color: #0071E3;
+                width: 45px;
+                height: 24px;
+                margin-top: 17px;
+            }
+
+
+
+
+    .elem_box {
+        div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+    }
+}
